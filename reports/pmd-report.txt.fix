@@ -1,0 +1,929 @@
+Violated encapsulation: 45
+src/View/ViewCameriere.java:24:	Use explicit scoping instead of the default package private level
+src/View/ViewCuoco.java:15:	Use explicit scoping instead of the default package private level
+src/View/ViewLogin.java:25:	Use explicit scoping instead of the default package private level
+src/View/ViewMenu.java:30:	Use explicit scoping instead of the default package private level
+src/View/ViewMenu.java:31:	Use explicit scoping instead of the default package private level
+src/View/ViewMenu.java:32:	Use explicit scoping instead of the default package private level
+src/View/ViewMenu.java:33:	Use explicit scoping instead of the default package private level
+src/View/ViewMenu.java:34:	Use explicit scoping instead of the default package private level
+src/View/ViewMenu.java:35:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewCuoco.java:72:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewMenu.java:21:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewMenu.java:22:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewMenu.java:23:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewMenu.java:24:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewMenu.java:25:	Use explicit scoping instead of the default package private level
+src/View/cardlayout/ViewMenu.java:26:	Use explicit scoping instead of the default package private level
+src/controller/Controller.java:4:	Use explicit scoping instead of the default package private level
+src/controller/ControllerLoginC.java:8:	Use explicit scoping instead of the default package private level
+src/controller/ControllerLoginC.java:9:	Use explicit scoping instead of the default package private level
+src/controller/ControllerLoginC.java:10:	Use explicit scoping instead of the default package private level
+src/controller/ScontrinoPresenter.java:21:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Cameriere.java:11:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Cameriere.java:12:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Cameriere.java:13:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Cameriere.java:14:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Cuoco.java:12:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Cuoco.java:13:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Ordine.java:6:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Ordine.java:7:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/OrdineD.java:11:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Persona.java:12:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Persona.java:13:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Persona.java:14:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Persona.java:15:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Piatti.java:56:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Scontrino.java:8:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Scontrino.java:9:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/SurplusSeatsExceptions.java:8:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/SurplusSeatsExceptions.java:9:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Tavoli.java:9:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Tavoli.java:10:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Tavoli.java:11:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Tavoli.java:12:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Tavoli.java:13:	Use explicit scoping instead of the default package private level
+src/pro_ristorante_oop/Tavoli.java:15:	Use explicit scoping instead of the default package private level
+
+Poor design: 67
+src/View/Ristorante.java:3:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/View/ViewCameriere.java:25:	Perhaps 'textField' could be replaced by a local variable.
+src/View/ViewCameriere.java:26:	Perhaps 'textField_1' could be replaced by a local variable.
+src/View/ViewScontrino.java:50:	The String literal "Tahoma" appears 11 times in this file; the first occurrence is on line 50
+src/View/ViewScontrino.java:127:	Perhaps 'jButton1' could be replaced by a local variable.
+src/View/ViewScontrino.java:129:	Perhaps 'jLabel1' could be replaced by a local variable.
+src/View/ViewScontrino.java:130:	Perhaps 'jLabel2' could be replaced by a local variable.
+src/View/ViewScontrino.java:131:	Perhaps 'jLabel3' could be replaced by a local variable.
+src/View/ViewScontrino.java:132:	Perhaps 'jLabel9' could be replaced by a local variable.
+src/View/ViewScontrino.java:133:	Perhaps 'jPanel1' could be replaced by a local variable.
+src/View/ViewScontrino.java:134:	Perhaps 'jScrollPane2' could be replaced by a local variable.
+src/View/ViewScontrino.java:135:	Perhaps 'lblcas' could be replaced by a local variable.
+src/View/ViewScontrino.java:136:	Perhaps 'lbld' could be replaced by a local variable.
+src/View/ViewScontrino.java:137:	Perhaps 'lblh' could be replaced by a local variable.
+src/View/ViewScontrino.java:138:	Perhaps 'lblpay' could be replaced by a local variable.
+src/View/ViewScontrino.java:139:	Perhaps 'lbltot' could be replaced by a local variable.
+src/View/cardlayout/ViewCameriere.java:30:	Perhaps 'textField' could be replaced by a local variable.
+src/View/cardlayout/ViewCameriere.java:31:	Perhaps 'textField_1' could be replaced by a local variable.
+src/View/cardlayout/ViewImpiegati.java:9:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/View/cardlayout/ViewScontrino.java:72:	Perhaps 'jLabel1' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrino.java:75:	Perhaps 'jPanel1' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:52:	The String literal "Tahoma" appears 11 times in this file; the first occurrence is on line 52
+src/View/cardlayout/ViewScontrinoBackup.java:128:	Perhaps 'jButton1' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:130:	Perhaps 'jLabel1' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:131:	Perhaps 'jLabel2' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:132:	Perhaps 'jLabel3' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:133:	Perhaps 'jLabel9' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:134:	Perhaps 'jPanel1' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:135:	Perhaps 'jScrollPane2' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:136:	Perhaps 'lblcas' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:137:	Perhaps 'lbld' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:138:	Perhaps 'lblh' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:139:	Perhaps 'lblpay' could be replaced by a local variable.
+src/View/cardlayout/ViewScontrinoBackup.java:140:	Perhaps 'lbltot' could be replaced by a local variable.
+src/controller/CamerierePresenter.java:32:	Avoid unused constructor parameters such as 'cameriereView'.
+src/controller/CamerierePresenter.java:32:	Avoid unused constructor parameters such as 'mainWindowPresenter2'.
+src/controller/CamerierePresenter.java:32:	Avoid unused constructor parameters such as 'orders'.
+src/controller/CamerierePresenter.java:33:	Avoid unused constructor parameters such as 'filePersistenceService'.
+src/controller/CuocoPresenter.java:23:	Avoid unused private fields such as 'model'.
+src/controller/ImpiegatiPresenter.java:12:	Avoid unused private fields such as 'mainWindowPresenter'.
+src/controller/ImpiegatiPresenter.java:12:	Perhaps 'mainWindowPresenter' could be replaced by a local variable.
+src/controller/ImpiegatiPresenter.java:13:	Avoid unused private fields such as 'view'.
+src/controller/ImpiegatiPresenter.java:13:	Perhaps 'view' could be replaced by a local variable.
+src/controller/ImpiegatiPresenter.java:14:	Perhaps 'model' could be replaced by a local variable.
+src/controller/ImpiegatiPresenter.java:15:	Avoid unused private fields such as 'pres'.
+src/controller/ImpiegatiPresenter.java:15:	Perhaps 'pres' could be replaced by a local variable.
+src/controller/MainWindowPresenter.java:29:	Avoid unused private fields such as 'model'.
+src/controller/MainWindowPresenter.java:29:	Perhaps 'model' could be replaced by a local variable.
+src/controller/MainWindowPresenter.java:30:	Avoid unused private fields such as 'tot'.
+src/controller/MainWindowPresenter.java:31:	Avoid unused private fields such as 'conto'.
+src/controller/PrenotationPresenter.java:11:	Avoid unused private fields such as 'mainWindowPresenter'.
+src/controller/PrenotationPresenter.java:11:	Perhaps 'mainWindowPresenter' could be replaced by a local variable.
+src/controller/PrenotationPresenter.java:13:	Avoid unused private fields such as 'model'.
+src/controller/PrenotationPresenter.java:13:	Perhaps 'model' could be replaced by a local variable.
+src/controller/SaveAndGetDatas.java:24:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/controller/ScontrinoPresenter.java:19:	Avoid unused private fields such as 'model'.
+src/controller/ScontrinoPresenter.java:23:	Avoid unused private fields such as 'bill'.
+src/controller/ScontrinoPresenter.java:24:	Avoid unused private fields such as 'tot'.
+src/pro_ristorante_oop/Drink.java:13:	The field name indicates a constant but its modifiers do not
+src/pro_ristorante_oop/Piatti.java:15:	The field name indicates a constant but its modifiers do not
+src/pro_ristorante_oop/Tavoli.java:10:	The field name indicates a constant but its modifiers do not
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:113:	The String literal "Read row: " appears 4 times in this file; the first occurrence is on line 113
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:21:	The field name indicates a constant but its modifiers do not
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:22:	The field name indicates a constant but its modifiers do not
+src/test/RestaurantApplication.java:18:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/test/TestFilePersistence.java:15:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/util/ImageLoader.java:4:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+
+Very bad code practices and potential bugs: 14
+src/View/ViewPrenotation.java:37:	Overridable method 'table' called during object construction
+src/View/cardlayout/MainWindow.java:74:	Overridable method 'initializeViews' called during object construction
+src/View/cardlayout/ViewPrenotation.java:37:	Overridable method 'table' called during object construction
+src/controller/ControllerLoginC.java:31:	Avoid using equals() to compare against null
+src/controller/ControllerLoginC.java:33:	Avoid using equals() to compare against null
+src/controller/CuocoPresenter.java:55:	Avoid unused local variables such as 'name'.
+src/controller/CuocoPresenter.java:56:	Avoid unused local variables such as 'surname'.
+src/controller/CuocoPresenter.java:58:	Avoid unused local variables such as 'list'.
+src/controller/LoginPresenter.java:38:	Avoid empty if statements
+src/controller/SaveAndGetDatas.java:222:	Do not start a literal by 0 unless its an octal value
+src/pro_ristorante_oop/Piatti.java:30:	Use equals() to compare strings instead of '==' or '!='
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:36:	Avoid unused local variables such as 'fw'.
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:68:	Avoid unused local variables such as 'fw'.
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:76:	Avoid unused local variables such as 'persone'.
+
+Bad exception handling: 8
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:49:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:59:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:93:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:133:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:180:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:218:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:256:	Avoid empty catch blocks
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:41:	Avoid empty catch blocks
+
+Portability issues: 0
+
+Bad naming: 160
+src/View/Ristorante.java:1:	Package name contains upper case characters
+src/View/ViewCameriere.java:1:	Package name contains upper case characters
+src/View/ViewCameriere.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_1' is not final.
+src/View/ViewCuoco.java:1:	Package name contains upper case characters
+src/View/ViewCuoco.java:17:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_1' is not final.
+src/View/ViewImpiegati.java:1:	Package name contains upper case characters
+src/View/ViewImpiegati.java:19:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btnNewButton_1' is not final.
+src/View/ViewImpiegati.java:27:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblPresent_1' is not final.
+src/View/ViewImpiegati.java:36:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_1' is not final.
+src/View/ViewLogin.java:1:	Package name contains upper case characters
+src/View/ViewMenu.java:1:	Package name contains upper case characters
+src/View/ViewMenu.java:32:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_1' is not final.
+src/View/ViewMenu.java:33:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_2' is not final.
+src/View/ViewMenu.java:34:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_3' is not final.
+src/View/ViewMenu.java:35:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_4' is not final.
+src/View/ViewMenu.java:58:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'panel_1' is not final.
+src/View/ViewMenu.java:72:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'panel_2' is not final.
+src/View/ViewMenu.java:86:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'panel_3' is not final.
+src/View/ViewMenu.java:100:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'panel_4' is not final.
+src/View/ViewPrenotation.java:1:	Package name contains upper case characters
+src/View/ViewScontrino.java:1:	Package name contains upper case characters
+src/View/ViewScontrino.java:12:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/ViewScontrino.java:27:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:31:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:32:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:33:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:34:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:36:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:37:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:38:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:40:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:129:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:130:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:131:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:132:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:135:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:136:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:137:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:138:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/ViewScontrino.java:139:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/MainWindow.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewCameriere.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewCameriere.java:29:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewCameriere.java:31:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_1' is not final.
+src/View/cardlayout/ViewCuoco.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewCuoco.java:22:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewCuoco.java:24:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'textField_1' is not final.
+src/View/cardlayout/ViewImpiegati.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewImpiegati.java:10:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewImpiegati.java:20:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'btnNewButton_1' is not final.
+src/View/cardlayout/ViewImpiegati.java:28:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblPresent_1' is not final.
+src/View/cardlayout/ViewImpiegati.java:37:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'lblNewLabel_1' is not final.
+src/View/cardlayout/ViewLogin.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewLogin.java:25:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewMenu.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewMenu.java:19:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewMenu.java:23:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_1' is not final.
+src/View/cardlayout/ViewMenu.java:24:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_2' is not final.
+src/View/cardlayout/ViewMenu.java:25:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_3' is not final.
+src/View/cardlayout/ViewMenu.java:26:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'comboBox_4' is not final.
+src/View/cardlayout/ViewPrenotation.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewPrenotation.java:24:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewScontrino.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewScontrino.java:11:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewScontrino.java:28:	Unnecessary use of fully qualified name 'javax.swing.JPanel' due to existing import 'javax.swing.JPanel'
+src/View/cardlayout/ViewScontrino.java:29:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrino.java:30:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrino.java:72:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrino.java:74:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrino.java:75:	Unnecessary use of fully qualified name 'javax.swing.JPanel' due to existing import 'javax.swing.JPanel'
+src/View/cardlayout/ViewScontrino.java:91:	Method names should not start with capital letters
+src/View/cardlayout/ViewScontrinoBackup.java:1:	Package name contains upper case characters
+src/View/cardlayout/ViewScontrinoBackup.java:11:	Variables that are final and static should be all capitals, 'index' is not all capitals.
+src/View/cardlayout/ViewScontrinoBackup.java:28:	Unnecessary use of fully qualified name 'javax.swing.JPanel' due to existing import 'javax.swing.JPanel'
+src/View/cardlayout/ViewScontrinoBackup.java:29:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:33:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:34:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:35:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:36:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:38:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:39:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:40:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:42:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:130:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:131:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:132:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:133:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:134:	Unnecessary use of fully qualified name 'javax.swing.JPanel' due to existing import 'javax.swing.JPanel'
+src/View/cardlayout/ViewScontrinoBackup.java:136:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:137:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:138:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:139:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/View/cardlayout/ViewScontrinoBackup.java:140:	Unnecessary use of fully qualified name 'javax.swing.JLabel' due to existing import 'javax.swing.JLabel'
+src/controller/ISaveAndGetDatas.java:11:	Avoid modifiers which are implied by the context
+src/controller/ISaveAndGetDatas.java:13:	Avoid modifiers which are implied by the context
+src/controller/ISaveAndGetDatas.java:16:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/Cameriere.java:14:	Variables should start with a lowercase character, 'NumT' starts with uppercase character.
+src/pro_ristorante_oop/Cameriere.java:32:	Variables should start with a lowercase character, 'IDTable' starts with uppercase character.
+src/pro_ristorante_oop/Cuoco.java:46:	Variables should start with a lowercase character, 'Od' starts with uppercase character.
+src/pro_ristorante_oop/Drink.java:13:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/Drink.java:18:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/Drink.java:25:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/IOrdine.java:8:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdine.java:10:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdine.java:12:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdine.java:14:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdine.java:16:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdine.java:16:	Method names should not start with capital letters
+src/pro_ristorante_oop/IOrdine.java:17:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdine.java:18:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdineD.java:7:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdineD.java:7:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/IOrdineD.java:9:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdineD.java:11:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdineD.java:11:	Method names should not start with capital letters
+src/pro_ristorante_oop/IOrdineD.java:13:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdineD.java:13:	Method names should not start with capital letters
+src/pro_ristorante_oop/IOrdineD.java:15:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IOrdineD.java:17:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IPiatti.java:7:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IPiatti.java:12:	Method names should not contain underscores
+src/pro_ristorante_oop/IPiatti.java:13:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IScontrino.java:6:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/IScontrino.java:8:	Method names should not start with capital letters
+src/pro_ristorante_oop/ITavoli.java:7:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:9:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:10:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:12:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:12:	Method names should not start with capital letters
+src/pro_ristorante_oop/ITavoli.java:13:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:13:	Method names should not start with capital letters
+src/pro_ristorante_oop/ITavoli.java:14:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:15:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:16:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/ITavoli.java:17:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/Ordine.java:50:	Method names should not start with capital letters
+src/pro_ristorante_oop/OrdineD.java:11:	Variables should start with a lowercase character, 'OReady' starts with uppercase character.
+src/pro_ristorante_oop/OrdineD.java:18:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/OrdineD.java:28:	Method names should not start with capital letters
+src/pro_ristorante_oop/OrdineD.java:32:	Method names should not start with capital letters
+src/pro_ristorante_oop/Piatti.java:15:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/Piatti.java:29:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/Piatti.java:49:	Method names should not contain underscores
+src/pro_ristorante_oop/Scontrino.java:25:	Method names should not start with capital letters
+src/pro_ristorante_oop/SurplusSeatsExceptions.java:9:	Method names should not start with capital letters
+src/pro_ristorante_oop/Tavoli.java:8:	Variables that are final and static should be all capitals, 'MAX_Post' is not all capitals.
+src/pro_ristorante_oop/Tavoli.java:9:	Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'num_post' is not final.
+src/pro_ristorante_oop/Tavoli.java:10:	Variables should start with a lowercase character, 'ID' starts with uppercase character.
+src/pro_ristorante_oop/Tavoli.java:43:	Method names should not start with capital letters
+src/pro_ristorante_oop/Tavoli.java:50:	Method names should not start with capital letters
+src/pro_ristorante_oop/authentication/AuthenticationService.java:5:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/PersistenceService.java:13:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/PersistenceService.java:14:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/PersistenceService.java:15:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/PersistenceService.java:16:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/PersistenceService.java:17:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/PersistenceService.java:18:	Avoid modifiers which are implied by the context
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:21:	Variables should start with a lowercase character, 'PERSONE' starts with uppercase character.
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:22:	Variables should start with a lowercase character, 'USERS' starts with uppercase character.
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:29:	Method names should not start with capital letters
+
+Bad code practices: 169
+src/View/ViewCameriere.java:7:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/View/ViewCameriere.java:10:	Avoid unused imports such as 'javax.swing.JComboBox'
+src/View/ViewCameriere.java:12:	Avoid unused imports such as 'javax.swing.JTextArea'
+src/View/ViewCameriere.java:15:	Avoid unused imports such as 'javax.swing.DefaultComboBoxModel'
+src/View/ViewCameriere.java:17:	Avoid unused imports such as 'javax.swing.JTextPane'
+src/View/ViewLogin.java:4:	Avoid unused imports such as 'java.awt.GridBagConstraints'
+src/View/ViewLogin.java:5:	Avoid unused imports such as 'java.awt.GridBagLayout'
+src/View/ViewLogin.java:9:	Avoid unused imports such as 'javax.swing.JPanel'
+src/View/ViewLogin.java:12:	Avoid unused imports such as 'javax.swing.border.LineBorder'
+src/View/ViewLogin.java:16:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/View/ViewLogin.java:18:	Avoid unused imports such as 'java.awt.event.ActionEvent'
+src/View/ViewMenu.java:5:	Avoid unused imports such as 'javax.swing.ImageIcon'
+src/View/ViewMenu.java:6:	Avoid unused imports such as 'javax.swing.JToggleButton'
+src/View/ViewMenu.java:7:	Avoid unused imports such as 'javax.swing.JTextArea'
+src/View/ViewMenu.java:8:	Avoid unused imports such as 'javax.swing.JList'
+src/View/ViewMenu.java:10:	Avoid unused imports such as 'java.awt.event.ActionEvent'
+src/View/ViewMenu.java:12:	Avoid unused imports such as 'java.awt.event.ItemEvent'
+src/View/ViewMenu.java:13:	Avoid unused imports such as 'java.awt.event.ItemListener'
+src/View/ViewMenu.java:15:	Avoid unused imports such as 'javax.swing.AbstractListModel'
+src/View/ViewMenu.java:16:	Avoid unused imports such as 'javax.swing.JScrollPane'
+src/View/ViewMenu.java:17:	Avoid unused imports such as 'javax.swing.JRadioButton'
+src/View/ViewMenu.java:18:	Avoid unused imports such as 'javax.swing.JScrollBar'
+src/View/ViewMenu.java:19:	Avoid unused imports such as 'javax.swing.JCheckBox'
+src/View/ViewMenu.java:20:	Avoid unused imports such as 'javax.swing.JTextPane'
+src/View/ViewMenu.java:21:	Avoid unused imports such as 'javax.swing.JTextField'
+src/View/ViewPrenotation.java:6:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/View/ViewPrenotation.java:16:	Avoid unused imports such as 'javax.swing.border.Border'
+src/View/ViewScontrino.java:127:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:128:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:129:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:130:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:131:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:132:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:133:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:134:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:135:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:136:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:137:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:138:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/ViewScontrino.java:139:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/MainWindow.java:42:	No need to import a type that lives in the same package
+src/View/cardlayout/MainWindow.java:43:	No need to import a type that lives in the same package
+src/View/cardlayout/MainWindow.java:44:	No need to import a type that lives in the same package
+src/View/cardlayout/MainWindow.java:45:	No need to import a type that lives in the same package
+src/View/cardlayout/ViewCameriere.java:3:	Avoid unused imports such as 'javax.swing.JFrame'
+src/View/cardlayout/ViewCameriere.java:7:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/View/cardlayout/ViewCameriere.java:9:	Avoid unused imports such as 'java.awt.Container'
+src/View/cardlayout/ViewCameriere.java:13:	Avoid unused imports such as 'javax.imageio.ImageIO'
+src/View/cardlayout/ViewCameriere.java:15:	Avoid unused imports such as 'javax.swing.BoxLayout'
+src/View/cardlayout/ViewCameriere.java:20:	Avoid unused imports such as 'javax.swing.SwingUtilities'
+src/View/cardlayout/ViewCameriere.java:21:	Avoid unused imports such as 'javax.swing.border.Border'
+src/View/cardlayout/ViewCameriere.java:23:	Avoid unused imports such as 'util.ImageLoader'
+src/View/cardlayout/ViewCuoco.java:72:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewLogin.java:3:	Avoid unused imports such as 'java.awt.Container'
+src/View/cardlayout/ViewLogin.java:4:	Avoid unused imports such as 'java.awt.GridBagConstraints'
+src/View/cardlayout/ViewLogin.java:5:	Avoid unused imports such as 'java.awt.GridBagLayout'
+src/View/cardlayout/ViewLogin.java:8:	Avoid unused imports such as 'javax.swing.JFrame'
+src/View/cardlayout/ViewLogin.java:12:	Avoid unused imports such as 'javax.swing.border.LineBorder'
+src/View/cardlayout/ViewLogin.java:14:	Avoid unused imports such as 'util.ImageLoader'
+src/View/cardlayout/ViewLogin.java:16:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/View/cardlayout/ViewLogin.java:18:	Avoid unused imports such as 'java.awt.event.ActionEvent'
+src/View/cardlayout/ViewPrenotation.java:3:	Avoid unused imports such as 'javax.swing.JFrame'
+src/View/cardlayout/ViewPrenotation.java:6:	Avoid unused imports such as 'java.awt.BorderLayout'
+src/View/cardlayout/ViewPrenotation.java:7:	Avoid unused imports such as 'java.awt.Container'
+src/View/cardlayout/ViewPrenotation.java:8:	Avoid unused imports such as 'java.awt.event.ActionEvent'
+src/View/cardlayout/ViewPrenotation.java:16:	Avoid unused imports such as 'javax.swing.border.Border'
+src/View/cardlayout/ViewScontrino.java:5:	Avoid unused imports such as 'javax.swing.JFrame'
+src/View/cardlayout/ViewScontrino.java:71:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrino.java:72:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrino.java:74:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrino.java:75:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:5:	Avoid unused imports such as 'javax.swing.JFrame'
+src/View/cardlayout/ViewScontrinoBackup.java:128:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:129:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:130:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:131:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:132:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:133:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:134:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:135:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:136:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:137:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:138:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:139:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/View/cardlayout/ViewScontrinoBackup.java:140:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/controller/CamerierePresenter.java:9:	No need to import a type that lives in the same package
+src/controller/CuocoPresenter.java:8:	Avoid unused imports such as 'View.cardlayout.ViewCameriere'
+src/controller/CuocoPresenter.java:10:	Avoid unused imports such as 'View.cardlayout.ViewPrenotation'
+src/controller/CuocoPresenter.java:11:	Avoid unused imports such as 'View.cardlayout.MainWindow'
+src/controller/ImpiegatiPresenter.java:6:	Avoid unused imports such as 'View.cardlayout.ViewLogin'
+src/controller/ImpiegatiPresenter.java:8:	Avoid unused imports such as 'pro_ristorante_oop.authentication.AuthenticationService'
+src/controller/LoginPresenter.java:9:	Avoid unused imports such as 'pro_ristorante_oop.persistence.FilePersistenceService'
+src/controller/MainWindowPresenter.java:16:	No need to import a type that lives in the same package
+src/controller/MenuPresenter.java:5:	Avoid unused imports such as 'java.util.Collection'
+src/controller/MenuPresenter.java:11:	Avoid unused imports such as 'View.ViewCuoco'
+src/controller/MenuPresenter.java:13:	Avoid unused imports such as 'View.cardlayout.MainWindow'
+src/controller/MenuPresenter.java:14:	Avoid unused imports such as 'View.cardlayout.ViewPrenotation'
+src/controller/MenuPresenter.java:17:	Avoid unused imports such as 'pro_ristorante_oop.TypePlate'
+src/controller/MenuPresenter.java:18:	Avoid unused imports such as 'pro_ristorante_oop.persistence.FilePersistenceService'
+src/controller/SaveAndGetDatas.java:37:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:39:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:41:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:43:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:68:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:70:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:119:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:121:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:168:	Avoid using if...else statements without curly braces
+src/controller/SaveAndGetDatas.java:170:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Cameriere.java:34:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Cuoco.java:25:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Cuoco.java:29:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Cuoco.java:31:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Cuoco.java:46:	Avoid reassigning parameters such as 'Od'
+src/pro_ristorante_oop/Cuoco.java:49:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Cuoco.java:72:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Cuoco.java:75:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/ITavoli.java:12:	Avoid using implementation types like 'LinkedList'; use the interface instead
+src/pro_ristorante_oop/ITavoli.java:16:	Avoid using implementation types like 'LinkedList'; use the interface instead
+src/pro_ristorante_oop/Ordine.java:16:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Ordine.java:18:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Ordine.java:28:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Ordine.java:36:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/OrdineD.java:20:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/OrdineD.java:22:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/OrdineD.java:44:	Avoid using for statements without curly braces
+src/pro_ristorante_oop/Pair.java:38:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Pair.java:40:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Pair.java:42:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Pair.java:46:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Pair.java:48:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Pair.java:51:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Pair.java:53:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Piatti.java:30:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Piatti.java:59:	Avoid using for statements without curly braces
+src/pro_ristorante_oop/Scontrino.java:12:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Scontrino.java:27:	Avoid using for statements without curly braces
+src/pro_ristorante_oop/Tavoli.java:26:	Avoid using if...else statements without curly braces
+src/pro_ristorante_oop/Tavoli.java:37:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Tavoli.java:43:	Avoid using implementation types like 'LinkedList'; use the interface instead
+src/pro_ristorante_oop/Tavoli.java:44:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/Tavoli.java:63:	Avoid using implementation types like 'LinkedList'; use the interface instead
+src/pro_ristorante_oop/Tavoli.java:64:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:6:	Avoid unused imports such as 'java.io.FileInputStream'
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:7:	Avoid unused imports such as 'java.io.FileReader'
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:10:	Avoid unused imports such as 'java.io.InputStream'
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:12:	Avoid unused imports such as 'java.io.OutputStreamWriter'
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:14:	Avoid unused imports such as 'java.io.FileOutputStream'
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:55:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:89:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:111:	Avoid assignments in operands
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:129:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:153:	Avoid assignments in operands
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:176:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:197:	Avoid assignments in operands
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:214:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:236:	Avoid assignments in operands
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:252:	Avoid using if statements without curly braces
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:8:	Avoid unused imports such as 'java.util.Random'
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:11:	Avoid unused imports such as 'pro_ristorante_oop.Ordine'
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:21:	Avoid using implementation types like 'HashMap'; use the interface instead
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:22:	Avoid using implementation types like 'HashMap'; use the interface instead
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:56:	When instantiating a SimpleDateFormat object, specify a Locale
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:76:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/test/RestaurantApplication.java:3:	Avoid unused imports such as 'javax.swing.JFrame'
+src/test/RestaurantApplication.java:10:	Avoid unused imports such as 'controller.LoginPresenter'
+src/test/RestaurantApplication.java:12:	Avoid unused imports such as 'controller.PrenotationPresenter'
+src/test/RestaurantApplication.java:13:	Avoid unused imports such as 'pro_ristorante_oop.authentication.TransientAuthenticationService'
+src/test/RestaurantApplication.java:15:	Avoid unused imports such as 'pro_ristorante_oop.persistence.TransientPersistenceService'
+
+Use modern Java: 0
+
+Performance and resource waste: 21
+src/View/ViewLogin.java:25:	Avoid using redundant field initializer for 'contenuto'
+src/View/ViewLogin.java:93:	Avoid instantiating String objects; this is usually unnecessary.
+src/View/ViewMenu.java:30:	Avoid using redundant field initializer for 'btnOrdina'
+src/View/ViewMenu.java:31:	Avoid using redundant field initializer for 'comboBox'
+src/View/ViewMenu.java:32:	Avoid using redundant field initializer for 'comboBox_1'
+src/View/ViewMenu.java:33:	Avoid using redundant field initializer for 'comboBox_2'
+src/View/ViewMenu.java:34:	Avoid using redundant field initializer for 'comboBox_3'
+src/View/ViewMenu.java:35:	Avoid using redundant field initializer for 'comboBox_4'
+src/View/cardlayout/MainWindow.java:137:	Consider simply returning the value vs storing it in local variable 'jp'
+src/View/cardlayout/ViewLogin.java:81:	Avoid instantiating String objects; this is usually unnecessary.
+src/View/cardlayout/ViewMenu.java:21:	Avoid using redundant field initializer for 'btnOrdina'
+src/View/cardlayout/ViewMenu.java:22:	Avoid using redundant field initializer for 'comboBox'
+src/View/cardlayout/ViewMenu.java:23:	Avoid using redundant field initializer for 'comboBox_1'
+src/View/cardlayout/ViewMenu.java:24:	Avoid using redundant field initializer for 'comboBox_2'
+src/View/cardlayout/ViewMenu.java:25:	Avoid using redundant field initializer for 'comboBox_3'
+src/View/cardlayout/ViewMenu.java:26:	Avoid using redundant field initializer for 'comboBox_4'
+src/controller/Controller.java:4:	Avoid using redundant field initializer for 'm'
+src/pro_ristorante_oop/Cameriere.java:11:	Avoid using redundant field initializer for 'occupato'
+src/pro_ristorante_oop/Persona.java:23:	Do not add empty strings
+src/pro_ristorante_oop/Piatti.java:66:	Do not add empty strings
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:163:	Avoid instantiating Integer objects. Call Integer.valueOf() instead.
+
+Potentially dangerous side effects: 0
+
+Use final: 393
+src/View/Ristorante.java:5:	Parameter 'args' is not assigned and could be declared final
+src/View/ViewCameriere.java:25:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewCameriere.java:26:	Private field 'textField_1' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewCameriere.java:29:	Parameter 'val' is not assigned and could be declared final
+src/View/ViewCameriere.java:30:	Local variable 'frame' could be declared final
+src/View/ViewCameriere.java:43:	Local variable 'lblNome' could be declared final
+src/View/ViewCameriere.java:47:	Local variable 'lblCognome' could be declared final
+src/View/ViewCameriere.java:51:	Local variable 'list' could be declared final
+src/View/ViewCameriere.java:57:	Parameter 'index' is not assigned and could be declared final
+src/View/ViewCameriere.java:66:	Local variable 'lblNewLabel' could be declared final
+src/View/ViewCameriere.java:71:	Local variable 'lblStato' could be declared final
+src/View/ViewCameriere.java:75:	Local variable 'btnLibero' could be declared final
+src/View/ViewCameriere.java:77:	Parameter 'e' is not assigned and could be declared final
+src/View/ViewCameriere.java:84:	Local variable 'btnOccupato' could be declared final
+src/View/ViewCameriere.java:88:	Parameter 'e' is not assigned and could be declared final
+src/View/ViewCameriere.java:99:	Parameter 'listener' is not assigned and could be declared final
+src/View/ViewCuoco.java:16:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewCuoco.java:17:	Private field 'textField_1' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewCuoco.java:20:	Parameter 'val' is not assigned and could be declared final
+src/View/ViewCuoco.java:21:	Local variable 'frame' could be declared final
+src/View/ViewCuoco.java:24:	Local variable 'lblNome' could be declared final
+src/View/ViewCuoco.java:28:	Local variable 'lblCognome' could be declared final
+src/View/ViewCuoco.java:41:	Local variable 'list' could be declared final
+src/View/ViewCuoco.java:47:	Parameter 'index' is not assigned and could be declared final
+src/View/ViewCuoco.java:55:	Local variable 'btnPrendeOrdine' could be declared final
+src/View/ViewCuoco.java:59:	Local variable 'btnCucina' could be declared final
+src/View/ViewCuoco.java:65:	Parameter 'listener' is not assigned and could be declared final
+src/View/ViewImpiegati.java:12:	Local variable 'frame' could be declared final
+src/View/ViewImpiegati.java:15:	Local variable 'lblPresent' could be declared final
+src/View/ViewImpiegati.java:19:	Local variable 'btnNewButton_1' could be declared final
+src/View/ViewImpiegati.java:23:	Local variable 'btnNumCamerieri' could be declared final
+src/View/ViewImpiegati.java:27:	Local variable 'lblPresent_1' could be declared final
+src/View/ViewImpiegati.java:31:	Local variable 'lblNewLabel' could be declared final
+src/View/ViewImpiegati.java:36:	Local variable 'lblNewLabel_1' could be declared final
+src/View/ViewImpiegati.java:41:	Local variable 'btnOpenRestaurant' could be declared final
+src/View/ViewLogin.java:28:	Private field 'btnNewButton' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewLogin.java:29:	Private field 'pfPassword' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewLogin.java:30:	Private field 'tfUsername' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewLogin.java:32:	Private field 'frame' could be made final; it is only initialized in the declaration or constructor.
+src/View/ViewLogin.java:44:	Local variable 'lblUsername' could be declared final
+src/View/ViewLogin.java:56:	Local variable 'lblPassword' could be declared final
+src/View/ViewLogin.java:68:	Local variable 'label' could be declared final
+src/View/ViewLogin.java:84:	Parameter 'listener' is not assigned and could be declared final
+src/View/ViewMenu.java:44:	Local variable 'panel' could be declared final
+src/View/ViewMenu.java:54:	Local variable 'lblPrimo' could be declared final
+src/View/ViewMenu.java:58:	Local variable 'panel_1' could be declared final
+src/View/ViewMenu.java:68:	Local variable 'lblSecondo' could be declared final
+src/View/ViewMenu.java:72:	Local variable 'panel_2' could be declared final
+src/View/ViewMenu.java:82:	Local variable 'lblAntipasto' could be declared final
+src/View/ViewMenu.java:86:	Local variable 'panel_3' could be declared final
+src/View/ViewMenu.java:96:	Local variable 'lblDrink' could be declared final
+src/View/ViewMenu.java:100:	Local variable 'panel_4' could be declared final
+src/View/ViewMenu.java:110:	Local variable 'lblDessert' could be declared final
+src/View/ViewMenu.java:128:	Local variable 'piat' could be declared final
+src/View/ViewMenu.java:135:	Parameter 'comboBox' is not assigned and could be declared final
+src/View/ViewMenu.java:143:	Parameter 'listener' is not assigned and could be declared final
+src/View/ViewPrenotation.java:31:	Local variable 'contenuto' could be declared final
+src/View/ViewPrenotation.java:49:	Parameter 'listener' is not assigned and could be declared final
+src/View/ViewPrenotation.java:55:	Parameter 'frame' is not assigned and could be declared final
+src/View/ViewPrenotation.java:57:	Local variable 'panel' could be declared final
+src/View/ViewPrenotation.java:58:	Local variable 'tab' could be declared final
+src/View/ViewPrenotation.java:62:	Local variable 'colore' could be declared final
+src/View/ViewPrenotation.java:71:	Parameter 'e' is not assigned and could be declared final
+src/View/ViewPrenotation.java:84:	Parameter 'listener' is not assigned and could be declared final
+src/View/ViewScontrino.java:54:	Local variable 'lblNome' could be declared final
+src/View/ViewScontrino.java:57:	Local variable 'textField' could be declared final
+src/View/ViewScontrino.java:142:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:100:	Parameter 'piatti' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:108:	Local variable 'controlLayer' could be declared final
+src/View/cardlayout/MainWindow.java:127:	Parameter 'card' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:127:	Parameter 'componentIndex' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:127:	Parameter 'useCase' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:134:	Parameter 'componentIndex' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:136:	Local variable 'jp' could be declared final
+src/View/cardlayout/MainWindow.java:140:	Parameter 'card' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:141:	Local variable 'cl' could be declared final
+src/View/cardlayout/MainWindow.java:150:	Parameter 'menu' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:160:	Parameter 'cuoco' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:170:	Parameter 'scontrino' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:180:	Parameter 'impiegati' is not assigned and could be declared final
+src/View/cardlayout/MainWindow.java:189:	Parameter 'cameriere' is not assigned and could be declared final
+src/View/cardlayout/ViewCameriere.java:30:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCameriere.java:31:	Private field 'textField_1' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCameriere.java:32:	Private field 'btnOccupato' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCameriere.java:33:	Private field 'list' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCameriere.java:48:	Local variable 'lblNome' could be declared final
+src/View/cardlayout/ViewCameriere.java:52:	Local variable 'lblCognome' could be declared final
+src/View/cardlayout/ViewCameriere.java:58:	Local variable 'val' could be declared final
+src/View/cardlayout/ViewCameriere.java:64:	Parameter 'index' is not assigned and could be declared final
+src/View/cardlayout/ViewCameriere.java:73:	Local variable 'lblNewLabel' could be declared final
+src/View/cardlayout/ViewCameriere.java:78:	Local variable 'lblStato' could be declared final
+src/View/cardlayout/ViewCameriere.java:82:	Local variable 'btnLibero' could be declared final
+src/View/cardlayout/ViewCameriere.java:84:	Parameter 'e' is not assigned and could be declared final
+src/View/cardlayout/ViewCameriere.java:95:	Parameter 'e' is not assigned and could be declared final
+src/View/cardlayout/ViewCameriere.java:104:	Parameter 'menuList' is not assigned and could be declared final
+src/View/cardlayout/ViewCameriere.java:111:	Parameter 'index' is not assigned and could be declared final
+src/View/cardlayout/ViewCameriere.java:117:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:23:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCuoco.java:24:	Private field 'textField_1' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCuoco.java:25:	Private field 'btnPrendeOrdine' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCuoco.java:26:	Private field 'btnCucina' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCuoco.java:28:	Private field 'list2' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewCuoco.java:35:	Local variable 'lblNome' could be declared final
+src/View/cardlayout/ViewCuoco.java:39:	Local variable 'lblCognome' could be declared final
+src/View/cardlayout/ViewCuoco.java:73:	Parameter 'ordine' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:78:	Local variable 'i' could be declared final
+src/View/cardlayout/ViewCuoco.java:81:	Local variable 'p' could be declared final
+src/View/cardlayout/ViewCuoco.java:96:	Parameter 'val' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:107:	Parameter 'index' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:115:	Parameter 'val' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:126:	Parameter 'index' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:132:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewCuoco.java:137:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewImpiegati.java:13:	Local variable 'frame' could be declared final
+src/View/cardlayout/ViewImpiegati.java:16:	Local variable 'lblPresent' could be declared final
+src/View/cardlayout/ViewImpiegati.java:20:	Local variable 'btnNewButton_1' could be declared final
+src/View/cardlayout/ViewImpiegati.java:24:	Local variable 'btnNumCamerieri' could be declared final
+src/View/cardlayout/ViewImpiegati.java:28:	Local variable 'lblPresent_1' could be declared final
+src/View/cardlayout/ViewImpiegati.java:32:	Local variable 'lblNewLabel' could be declared final
+src/View/cardlayout/ViewImpiegati.java:37:	Local variable 'lblNewLabel_1' could be declared final
+src/View/cardlayout/ViewImpiegati.java:42:	Local variable 'btnOpenRestaurant' could be declared final
+src/View/cardlayout/ViewLogin.java:28:	Private field 'btnNewButton' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewLogin.java:29:	Private field 'pfPassword' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewLogin.java:30:	Private field 'tfUsername' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewLogin.java:41:	Local variable 'lblUsername' could be declared final
+src/View/cardlayout/ViewLogin.java:53:	Local variable 'lblPassword' could be declared final
+src/View/cardlayout/ViewLogin.java:65:	Local variable 'label' could be declared final
+src/View/cardlayout/ViewLogin.java:72:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewMenu.java:27:	Private field 'textField' could be made final; it is only initialized in the declaration or constructor.
+src/View/cardlayout/ViewMenu.java:29:	Parameter 'piatti' is not assigned and could be declared final
+src/View/cardlayout/ViewMenu.java:33:	Local variable 'primolist' could be declared final
+src/View/cardlayout/ViewMenu.java:34:	Local variable 'secondolist' could be declared final
+src/View/cardlayout/ViewMenu.java:35:	Local variable 'antipastolist' could be declared final
+src/View/cardlayout/ViewMenu.java:36:	Local variable 'drinklist' could be declared final
+src/View/cardlayout/ViewMenu.java:37:	Local variable 'dolcelist' could be declared final
+src/View/cardlayout/ViewMenu.java:43:	Local variable 'lblNome' could be declared final
+src/View/cardlayout/ViewMenu.java:60:	Local variable 'lblPrimo' could be declared final
+src/View/cardlayout/ViewMenu.java:76:	Local variable 'lblSecondo' could be declared final
+src/View/cardlayout/ViewMenu.java:92:	Local variable 'lblAntipasto' could be declared final
+src/View/cardlayout/ViewMenu.java:108:	Local variable 'lblDrink' could be declared final
+src/View/cardlayout/ViewMenu.java:124:	Local variable 'lblDessert' could be declared final
+src/View/cardlayout/ViewMenu.java:141:	Local variable 'piat' could be declared final
+src/View/cardlayout/ViewMenu.java:148:	Parameter 'comboBox' is not assigned and could be declared final
+src/View/cardlayout/ViewMenu.java:156:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewPrenotation.java:40:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewPrenotation.java:48:	Local variable 'panel' could be declared final
+src/View/cardlayout/ViewPrenotation.java:49:	Local variable 'tab' could be declared final
+src/View/cardlayout/ViewPrenotation.java:73:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewScontrino.java:48:	Local variable 'lblNome' could be declared final
+src/View/cardlayout/ViewScontrino.java:81:	Parameter 'listener' is not assigned and could be declared final
+src/View/cardlayout/ViewScontrino.java:87:	Local variable 'x' could be declared final
+src/View/cardlayout/ViewScontrino.java:91:	Parameter 'tot' is not assigned and could be declared final
+src/View/cardlayout/ViewScontrinoBackup.java:56:	Local variable 'lblNome' could be declared final
+src/View/cardlayout/ViewScontrinoBackup.java:59:	Local variable 'textField' could be declared final
+src/View/cardlayout/ViewScontrinoBackup.java:143:	Parameter 'listener' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:17:	Private field 'mainWindowPresenter' could be made final; it is only initialized in the declaration or constructor.
+src/controller/CamerierePresenter.java:18:	Private field 'view' could be made final; it is only initialized in the declaration or constructor.
+src/controller/CamerierePresenter.java:19:	Private field 'model' could be made final; it is only initialized in the declaration or constructor.
+src/controller/CamerierePresenter.java:20:	Private field 'ordine' could be made final; it is only initialized in the declaration or constructor.
+src/controller/CamerierePresenter.java:22:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:22:	Parameter 'model' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:22:	Parameter 'sarr' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:22:	Parameter 'viewCameriere' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:32:	Parameter 'cameriereView' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:32:	Parameter 'mainWindowPresenter2' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:32:	Parameter 'orders' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:33:	Parameter 'filePersistenceService' is not assigned and could be declared final
+src/controller/CamerierePresenter.java:43:	Parameter 'e' is not assigned and could be declared final
+src/controller/ControllerLoginC.java:14:	Local variable 'stringaView' could be declared final
+src/controller/ControllerLoginC.java:16:	Local variable 'pe' could be declared final
+src/controller/CuocoPresenter.java:25:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:25:	Parameter 'model' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:25:	Parameter 'view' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:35:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:35:	Parameter 'view' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:36:	Parameter 'model' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:36:	Parameter 'ordine' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:47:	Parameter 'e' is not assigned and could be declared final
+src/controller/CuocoPresenter.java:55:	Local variable 'name' could be declared final
+src/controller/CuocoPresenter.java:56:	Local variable 'surname' could be declared final
+src/controller/CuocoPresenter.java:57:	Local variable 'service' could be declared final
+src/controller/CuocoPresenter.java:58:	Local variable 'list' could be declared final
+src/controller/ImpiegatiPresenter.java:13:	Private field 'view' could be made final; it is only initialized in the declaration or constructor.
+src/controller/ImpiegatiPresenter.java:17:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/ImpiegatiPresenter.java:17:	Parameter 'viewImpiegati' is not assigned and could be declared final
+src/controller/ImpiegatiPresenter.java:18:	Parameter 'filePersistenceService' is not assigned and could be declared final
+src/controller/LoginPresenter.java:16:	Private field 'view' could be made final; it is only initialized in the declaration or constructor.
+src/controller/LoginPresenter.java:19:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/LoginPresenter.java:19:	Parameter 'model' is not assigned and could be declared final
+src/controller/LoginPresenter.java:19:	Parameter 'view' is not assigned and could be declared final
+src/controller/LoginPresenter.java:28:	Parameter 'e' is not assigned and could be declared final
+src/controller/LoginPresenter.java:31:	Local variable 'username' could be declared final
+src/controller/LoginPresenter.java:32:	Local variable 'password' could be declared final
+src/controller/MainWindowPresenter.java:33:	Parameter 'model' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:40:	Local variable 'piatti' could be declared final
+src/controller/MainWindowPresenter.java:58:	Parameter 's' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:63:	Local variable 'loginView' could be declared final
+src/controller/MainWindowPresenter.java:67:	Local variable 'prenotationView' could be declared final
+src/controller/MainWindowPresenter.java:72:	Local variable 'cuocoView' could be declared final
+src/controller/MainWindowPresenter.java:77:	Local variable 'viewCameriere' could be declared final
+src/controller/MainWindowPresenter.java:82:	Local variable 'viewScontrino' could be declared final
+src/controller/MainWindowPresenter.java:87:	Local variable 'viewImpiegati' could be declared final
+src/controller/MainWindowPresenter.java:97:	Parameter 'e' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:114:	Parameter 'orders' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:116:	Local variable 'cuocoView' could be declared final
+src/controller/MainWindowPresenter.java:123:	Local variable 'menuView' could be declared final
+src/controller/MainWindowPresenter.java:128:	Parameter 'menuList' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:130:	Local variable 'cameriereView' could be declared final
+src/controller/MainWindowPresenter.java:135:	Parameter 'tot' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:137:	Local variable 'viewScontrino' could be declared final
+src/controller/MainWindowPresenter.java:142:	Parameter 'impiegati' is not assigned and could be declared final
+src/controller/MainWindowPresenter.java:144:	Local variable 'viewImpiegati' could be declared final
+src/controller/MenuPresenter.java:28:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/MenuPresenter.java:28:	Parameter 'model' is not assigned and could be declared final
+src/controller/MenuPresenter.java:28:	Parameter 'view' is not assigned and could be declared final
+src/controller/MenuPresenter.java:40:	Parameter 'e' is not assigned and could be declared final
+src/controller/MenuPresenter.java:42:	Local variable 'selectedOrder' could be declared final
+src/controller/MenuPresenter.java:49:	Local variable 'piat' could be declared final
+src/controller/MenuPresenter.java:57:	Local variable 'selectedPiattis' could be declared final
+src/controller/MenuPresenter.java:58:	Local variable 'orders' could be declared final
+src/controller/MenuPresenter.java:60:	Local variable 's' could be declared final
+src/controller/MenuPresenter.java:62:	Local variable 'pi' could be declared final
+src/controller/MenuPresenter.java:72:	Local variable 'selectedOrder' could be declared final
+src/controller/PrenotationPresenter.java:15:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/PrenotationPresenter.java:15:	Parameter 'model' is not assigned and could be declared final
+src/controller/PrenotationPresenter.java:15:	Parameter 'view' is not assigned and could be declared final
+src/controller/PrenotationPresenter.java:25:	Parameter 'e' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:32:	Parameter 'o' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:46:	Local variable 'p' could be declared final
+src/controller/SaveAndGetDatas.java:47:	Local variable 'ob' could be declared final
+src/controller/SaveAndGetDatas.java:59:	Parameter 'o' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:63:	Parameter 'o' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:72:	Local variable 'po' could be declared final
+src/controller/SaveAndGetDatas.java:83:	Local variable 'cu' could be declared final
+src/controller/SaveAndGetDatas.java:87:	Local variable 'ci' could be declared final
+src/controller/SaveAndGetDatas.java:116:	Parameter 'o' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:123:	Local variable 'po' could be declared final
+src/controller/SaveAndGetDatas.java:134:	Local variable 'cu' could be declared final
+src/controller/SaveAndGetDatas.java:163:	Parameter 'o' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:172:	Local variable 'po' could be declared final
+src/controller/SaveAndGetDatas.java:214:	Parameter 'args' is not assigned and could be declared final
+src/controller/SaveAndGetDatas.java:215:	Local variable 'p' could be declared final
+src/controller/SaveAndGetDatas.java:216:	Local variable 'pe' could be declared final
+src/controller/SaveAndGetDatas.java:217:	Local variable 'po' could be declared final
+src/controller/SaveAndGetDatas.java:218:	Local variable 'ord' could be declared final
+src/controller/SaveAndGetDatas.java:219:	Local variable 'pl' could be declared final
+src/controller/SaveAndGetDatas.java:224:	Local variable 'o' could be declared final
+src/controller/SaveAndGetDatas.java:225:	Local variable 'lp' could be declared final
+src/controller/SaveAndGetDatas.java:233:	Local variable 'ioul' could be declared final
+src/controller/ScontrinoPresenter.java:26:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:26:	Parameter 'model' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:26:	Parameter 'view' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:34:	Parameter 'mainWindowPresenter' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:34:	Parameter 'view' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:35:	Parameter 'model' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:35:	Parameter 'tot' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:45:	Parameter 'e' is not assigned and could be declared final
+src/controller/ScontrinoPresenter.java:48:	Local variable 'tav' could be declared final
+src/controller/ScontrinoPresenter.java:51:	Local variable 'key' could be declared final
+src/pro_ristorante_oop/Cameriere.java:16:	Parameter 'name' is not assigned and could be declared final
+src/pro_ristorante_oop/Cameriere.java:16:	Parameter 'sex' is not assigned and could be declared final
+src/pro_ristorante_oop/Cameriere.java:16:	Parameter 'surname' is not assigned and could be declared final
+src/pro_ristorante_oop/Cameriere.java:32:	Parameter 'IDTable' is not assigned and could be declared final
+src/pro_ristorante_oop/Cameriere.java:32:	Parameter 'o' is not assigned and could be declared final
+src/pro_ristorante_oop/Cameriere.java:41:	Parameter 'd' is not assigned and could be declared final
+src/pro_ristorante_oop/Cuoco.java:15:	Parameter 'name' is not assigned and could be declared final
+src/pro_ristorante_oop/Cuoco.java:15:	Parameter 'sex' is not assigned and could be declared final
+src/pro_ristorante_oop/Cuoco.java:15:	Parameter 'surname' is not assigned and could be declared final
+src/pro_ristorante_oop/Cuoco.java:24:	Parameter 'or' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:12:	Private field 'name' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Drink.java:13:	Private field 'ID' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Drink.java:14:	Private field 'coust' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Drink.java:18:	Parameter 'ID' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:18:	Parameter 'cost' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:18:	Parameter 'des' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:18:	Parameter 'name' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:25:	Parameter 'ID' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:25:	Parameter 'cost' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:25:	Parameter 'name' is not assigned and could be declared final
+src/pro_ristorante_oop/Drink.java:51:	Parameter 'msg' is not assigned and could be declared final
+src/pro_ristorante_oop/Ordine.java:14:	Parameter 'key' is not assigned and could be declared final
+src/pro_ristorante_oop/Ordine.java:21:	Parameter 'numT' is not assigned and could be declared final
+src/pro_ristorante_oop/Ordine.java:21:	Parameter 'p' is not assigned and could be declared final
+src/pro_ristorante_oop/Ordine.java:30:	Parameter 'o' is not assigned and could be declared final
+src/pro_ristorante_oop/Ordine.java:39:	Parameter 'intT' is not assigned and could be declared final
+src/pro_ristorante_oop/Ordine.java:44:	Local variable 'o' could be declared final
+src/pro_ristorante_oop/OrdineD.java:14:	Parameter 'intT' is not assigned and could be declared final
+src/pro_ristorante_oop/OrdineD.java:18:	Parameter 'ID' is not assigned and could be declared final
+src/pro_ristorante_oop/OrdineD.java:18:	Parameter 'p' is not assigned and could be declared final
+src/pro_ristorante_oop/OrdineD.java:32:	Parameter 'id' is not assigned and could be declared final
+src/pro_ristorante_oop/OrdineD.java:36:	Parameter 'i' is not assigned and could be declared final
+src/pro_ristorante_oop/OrdineD.java:42:	Local variable 'i' could be declared final
+src/pro_ristorante_oop/OrdineD.java:44:	Local variable 'pi' could be declared final
+src/pro_ristorante_oop/Pair.java:12:	Parameter 'x' is not assigned and could be declared final
+src/pro_ristorante_oop/Pair.java:12:	Parameter 'y' is not assigned and could be declared final
+src/pro_ristorante_oop/Pair.java:37:	Parameter 'obj' is not assigned and could be declared final
+src/pro_ristorante_oop/Pair.java:44:	Local variable 'other' could be declared final
+src/pro_ristorante_oop/Persona.java:18:	Parameter 'cognome' is not assigned and could be declared final
+src/pro_ristorante_oop/Persona.java:18:	Parameter 'nome' is not assigned and could be declared final
+src/pro_ristorante_oop/Persona.java:18:	Parameter 'sesso' is not assigned and could be declared final
+src/pro_ristorante_oop/Persona.java:22:	Local variable 'r' could be declared final
+src/pro_ristorante_oop/Persona.java:42:	Parameter 'password' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:11:	Private field 'nomeP' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Piatti.java:12:	Private field 'cost' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Piatti.java:14:	Private field 'tipo' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Piatti.java:15:	Private field 'ID' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/Piatti.java:29:	Parameter 'ID' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:29:	Parameter 'cost' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:29:	Parameter 'name' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:29:	Parameter 'tipo' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:40:	Parameter 'msg' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:56:	Parameter 'pl' is not assigned and could be declared final
+src/pro_ristorante_oop/Piatti.java:58:	Local variable 'npl' could be declared final
+src/pro_ristorante_oop/Piatti.java:59:	Local variable 'p' could be declared final
+src/pro_ristorante_oop/Proprietario.java:10:	Parameter 'cognome' is not assigned and could be declared final
+src/pro_ristorante_oop/Proprietario.java:10:	Parameter 'nome' is not assigned and could be declared final
+src/pro_ristorante_oop/Proprietario.java:10:	Parameter 'sesso' is not assigned and could be declared final
+src/pro_ristorante_oop/Scontrino.java:11:	Parameter 'd' is not assigned and could be declared final
+src/pro_ristorante_oop/Scontrino.java:11:	Parameter 'p' is not assigned and could be declared final
+src/pro_ristorante_oop/Scontrino.java:27:	Local variable 'dd' could be declared final
+src/pro_ristorante_oop/Scontrino.java:29:	Local variable 'pp' could be declared final
+src/pro_ristorante_oop/SurplusSeatsExceptions.java:9:	Parameter 'msg' is not assigned and could be declared final
+src/pro_ristorante_oop/Tavoli.java:17:	Parameter 'id' is not assigned and could be declared final
+src/pro_ristorante_oop/Tavoli.java:17:	Parameter 'num' is not assigned and could be declared final
+src/pro_ristorante_oop/Tavoli.java:36:	Parameter 'o' is not assigned and could be declared final
+src/pro_ristorante_oop/Tavoli.java:43:	Parameter 'p' is not assigned and could be declared final
+src/pro_ristorante_oop/Tavoli.java:63:	Parameter 'd' is not assigned and could be declared final
+src/pro_ristorante_oop/TypePlate.java:8:	Parameter 'num' is not assigned and could be declared final
+src/pro_ristorante_oop/TypePlate.java:29:	Parameter 'st' is not assigned and could be declared final
+src/pro_ristorante_oop/User.java:10:	Parameter 'password' is not assigned and could be declared final
+src/pro_ristorante_oop/User.java:10:	Parameter 'username' is not assigned and could be declared final
+src/pro_ristorante_oop/User.java:21:	Parameter 'username' is not assigned and could be declared final
+src/pro_ristorante_oop/User.java:31:	Parameter 'password' is not assigned and could be declared final
+src/pro_ristorante_oop/User.java:36:	Parameter 'p' is not assigned and could be declared final
+src/pro_ristorante_oop/authentication/TransientAuthenticationService.java:9:	Private field 'persistenceService' could be made final; it is only initialized in the declaration or constructor.
+src/pro_ristorante_oop/authentication/TransientAuthenticationService.java:11:	Parameter 'persistenceService' is not assigned and could be declared final
+src/pro_ristorante_oop/authentication/TransientAuthenticationService.java:17:	Parameter 'password' is not assigned and could be declared final
+src/pro_ristorante_oop/authentication/TransientAuthenticationService.java:17:	Parameter 'username' is not assigned and could be declared final
+src/pro_ristorante_oop/authentication/TransientAuthenticationService.java:19:	Local variable 'user' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:34:	Parameter 'persona' is not assigned and could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:36:	Local variable 'fw' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:43:	Local variable 'p' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:66:	Parameter 'orders' is not assigned and could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:68:	Local variable 'fw' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:75:	Local variable 'i' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:76:	Local variable 'item' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:78:	Local variable 'i2' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:79:	Local variable 'item2' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:103:	Local variable 'persone' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:114:	Local variable 'st' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:115:	Local variable 'sParam' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:120:	Local variable 'p' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:144:	Local variable 'ord' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:145:	Local variable 'piat' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:157:	Local variable 'st' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:158:	Local variable 'sParam' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:190:	Local variable 'piatti' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:200:	Local variable 'st' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:201:	Local variable 'sParam' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:206:	Local variable 'piat' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:226:	Parameter 'username' is not assigned and could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:229:	Local variable 'user' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:239:	Local variable 'st' could be declared final
+src/pro_ristorante_oop/persistence/FilePersistenceService.java:240:	Local variable 'sParam' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:29:	Parameter 'md5' is not assigned and could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:33:	Local variable 'md' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:34:	Local variable 'array' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:35:	Local variable 'sb' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:53:	Local variable 'propietarioList' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:54:	Local variable 'p' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:56:	Local variable 'dateFormat' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:57:	Local variable 'dateFormatAsString' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:58:	Local variable 'key' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:62:	Local variable 'user' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:67:	Parameter 'persona' is not assigned and could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:76:	Local variable 'persone' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:81:	Parameter 'usernames' is not assigned and could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:84:	Local variable 'userList' could be declared final
+src/pro_ristorante_oop/persistence/TransientPersistenceService.java:104:	Parameter 'orders' is not assigned and could be declared final
+src/test/RestaurantApplication.java:20:	Parameter 'args' is not assigned and could be declared final
+src/test/RestaurantApplication.java:47:	Local variable 'mainPresenter' could be declared final
+src/test/TestFilePersistence.java:17:	Parameter 'args' is not assigned and could be declared final
+src/test/TestFilePersistence.java:19:	Local variable 'persone' could be declared final
+src/test/TestFilePersistence.java:20:	Local variable 'ordine' could be declared final
+src/test/TestFilePersistence.java:26:	Local variable 'service' could be declared final
+src/test/TestFilePersistence.java:28:	Local variable 'piatti' could be declared final
+src/test/TestFilePersistence.java:29:	Local variable 'list' could be declared final
+src/test/TestFilePersistence.java:32:	Local variable 'ordine12' could be declared final
+src/test/TestFilePersistence.java:33:	Local variable 'i' could be declared final
+src/test/TestFilePersistence.java:34:	Local variable 'item' could be declared final
+src/test/TestFilePersistence.java:37:	Local variable 'p1' could be declared final
+src/test/TestFilePersistence.java:40:	Local variable 'p' could be declared final
+src/util/ImageLoader.java:7:	Parameter 'image' is not assigned and could be declared final
+
+Complex code: 0
+
+Concurrency issues: 0
+
+Testing issues: 0
+
+Android-specific issues: 0
+
+Minor issues: 18
+src/View/ViewCameriere.java:29:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/View/ViewCuoco.java:20:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/View/ViewMenu.java:37:	It is a good practice to call super() in a constructor
+src/View/ViewPrenotation.java:28:	It is a good practice to call super() in a constructor
+src/View/ViewScontrino.java:14:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewCameriere.java:35:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewCameriere.java:104:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/View/cardlayout/ViewCuoco.java:30:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewCuoco.java:96:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/View/cardlayout/ViewCuoco.java:115:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/View/cardlayout/ViewImpiegati.java:11:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewLogin.java:32:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewMenu.java:29:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewPrenotation.java:30:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewScontrino.java:14:	It is a good practice to call super() in a constructor
+src/View/cardlayout/ViewScontrinoBackup.java:14:	It is a good practice to call super() in a constructor
+src/controller/MainWindowPresenter.java:128:	Consider using varargs for methods or constructors which take an array the last parameter.
+src/pro_ristorante_oop/persistence/PersistenceService.java:18:	Consider using varargs for methods or constructors which take an array the last parameter.
+
+Other errors: 0
+
